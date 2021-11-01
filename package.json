@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "keystone-next dev PORT=3550",
     "start": "keystone-next start PORT=3550",
-    "build": "keystone-next build && keystone-next prisma migrate deploy"
+    "build": "keystone-next build",
+    "fix": "keystone-next prisma migrate deploy"
   },
   "dependencies": {
     "@keystone-next/auth": "^34.0.0",

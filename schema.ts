@@ -124,23 +124,6 @@ export const lists = {
         initialColumns: ["image", "altText"],
       },
     },
-    hooks: {
-      resolveInput: ({ resolvedData }) => {
-        const { src, image } = resolvedData;
-        const url = process.env.baseUrl + `/images/${image?.id}`;
-        resolvedData.src = url;
-
-        return resolvedData;
-      },
-      validateInput: ({ resolvedData, addValidationError }) => {
-        // const { status } = resolvedData;
-        // if (status === "published") {
-        //   const error = validNewsUpdate({ ...resolvedData });
-        //   console.log(error);
-        //   if (error) addValidationError(error[0]);
-        // }
-      },
-    },
   }),
   MediaResource: list({
     fields: {
