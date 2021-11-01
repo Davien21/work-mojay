@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "keystone-next dev PORT=3550",
     "start": "keystone-next start PORT=3550",
-    "build": "yes | keystone-next build",
+    "build": "yes | keystone-next build && yarn fix",
     "fix": "keystone-next postinstall --fix"
   },
   "dependencies": {
