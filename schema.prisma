@@ -27,7 +27,7 @@ model NewsUpdate {
   shortDescription String     @default("")
   status           String?    @default("draft")
   content          String     @default("[{\"type\":\"paragraph\",\"children\":[{\"text\":\"\"}]}]")
-  publishDate      DateTime?  @default("2021-11-01T18:00:54.117Z")
+  publishDate      DateTime?  @default("2021-11-01T18:05:33.117Z")
 }
 
 model NewsImage {
