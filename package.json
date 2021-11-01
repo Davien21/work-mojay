@@ -20,8 +20,7 @@
   "dependencies": {
     "@keystone-next/auth": "^34.0.0",
     "@keystone-next/keystone": "^26.1.0",
-    "@keystone-next/fields-document": "^11.0.0",
-    "@keystone-next/cloudinary": "^9.0.0"
+    "@keystone-next/fields-document": "^11.0.0"
   },
   "devDependencies": {
     "typescript": "^4.3.5"
