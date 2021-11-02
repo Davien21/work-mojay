@@ -12,9 +12,9 @@
     "yarn": "1.22.10"
   },
   "scripts": {
-    "dev": "keystone-next dev PORT=3550",
-    "start": "keystone-next start PORT=3550",
-    "build": "yes | keystone-next build && keystone-next postinstall --fix",
+    "dev": "keystone-next dev",
+    "start": "keystone-next start",
+    "build": "yes | keystone-next build",
     "fix": "keystone-next postinstall --fix"
   },
   "dependencies": {
