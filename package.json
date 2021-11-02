@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "keystone-next dev",
     "start": "keystone-next start",
-    "build": "yes | keystone-next build",
+    "build": "keystone-next build --yes",
     "fix": "keystone-next postinstall --fix"
   },
   "dependencies": {
